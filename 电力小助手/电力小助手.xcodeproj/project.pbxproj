@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DAD937214FDD4A00716E26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD936214FDD4A00716E26 /* AppDelegate.m */; };
+		05DAD93D214FDD4A00716E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05DAD93B214FDD4A00716E26 /* Main.storyboard */; };
+		05DAD93F214FDD4B00716E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05DAD93E214FDD4B00716E26 /* Assets.xcassets */; };
+		05DAD945214FDD4B00716E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD944214FDD4B00716E26 /* main.m */; };
+		05DAD94F214FDD4C00716E26 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD94E214FDD4C00716E26 /* _____Tests.m */; };
+		05DAD95A214FDD4C00716E26 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD959214FDD4C00716E26 /* _____UITests.m */; };
+		05DAD969214FDE5300716E26 /* ElectricityCaluateListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD968214FDE5300716E26 /* ElectricityCaluateListController.m */; };
+		05DAD96D214FE27100716E26 /* ElectricCurrentCaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DAD96C214FE27100716E26 /* ElectricCurrentCaluateController.m */; };
+		4FA715BD616D92054FA91DA9 /* libPods-电力小助手.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853FF4C0D90854169BE57038 /* libPods-电力小助手.a */; };
+		535761A5CC3C357855A67384 /* libPods-电力小助手Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7B37AF38AC4836CA50ADD8 /* libPods-电力小助手Tests.a */; };
+		88D46C97EDA5BFF17AA78CE2 /* libPods-电力小助手UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D93755D3A63F4C2337931E /* libPods-电力小助手UITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05DAD94B214FDD4C00716E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DAD92A214FDD4A00716E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DAD931214FDD4A00716E26;
+			remoteInfo = "电力小助手";
+		};
+		05DAD956214FDD4C00716E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05DAD92A214FDD4A00716E26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05DAD931214FDD4A00716E26;
+			remoteInfo = "电力小助手";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DAD932214FDD4A00716E26 /* 电力小助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "电力小助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DAD935214FDD4A00716E26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05DAD936214FDD4A00716E26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05DAD93C214FDD4A00716E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05DAD93E214FDD4B00716E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05DAD943214FDD4B00716E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DAD944214FDD4B00716E26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05DAD94A214FDD4C00716E26 /* 电力小助手Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "电力小助手Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DAD94E214FDD4C00716E26 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _____Tests.m; sourceTree = "<group>"; };
+		05DAD950214FDD4C00716E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DAD955214FDD4C00716E26 /* 电力小助手UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "电力小助手UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05DAD959214FDD4C00716E26 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _____UITests.m; sourceTree = "<group>"; };
+		05DAD95B214FDD4C00716E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DAD967214FDE5300716E26 /* ElectricityCaluateListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectricityCaluateListController.h; sourceTree = "<group>"; };
+		05DAD968214FDE5300716E26 /* ElectricityCaluateListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricityCaluateListController.m; sourceTree = "<group>"; };
+		05DAD96B214FE27100716E26 /* ElectricCurrentCaluateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectricCurrentCaluateController.h; sourceTree = "<group>"; };
+		05DAD96C214FE27100716E26 /* ElectricCurrentCaluateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectricCurrentCaluateController.m; sourceTree = "<group>"; };
+		283DA8424D6883C495696D8F /* Pods-电力小助手UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手UITests/Pods-电力小助手UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		356CC46298A7499EB753E201 /* Pods-电力小助手Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手Tests/Pods-电力小助手Tests.release.xcconfig"; sourceTree = "<group>"; };
+		35D454A97B327EA35FCE659C /* Pods-电力小助手.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手.debug.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手/Pods-电力小助手.debug.xcconfig"; sourceTree = "<group>"; };
+		51D93755D3A63F4C2337931E /* libPods-电力小助手UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-电力小助手UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853FF4C0D90854169BE57038 /* libPods-电力小助手.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-电力小助手.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CE4348F8482BBDF57D71BE /* Pods-电力小助手Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手Tests/Pods-电力小助手Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0A915022BEB7D3217B57C5 /* Pods-电力小助手.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手.release.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手/Pods-电力小助手.release.xcconfig"; sourceTree = "<group>"; };
+		ED7B37AF38AC4836CA50ADD8 /* libPods-电力小助手Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-电力小助手Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00853000674F337F0BDBB9A /* Pods-电力小助手UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-电力小助手UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-电力小助手UITests/Pods-电力小助手UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05DAD92F214FDD4A00716E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA715BD616D92054FA91DA9 /* libPods-电力小助手.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD947214FDD4C00716E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535761A5CC3C357855A67384 /* libPods-电力小助手Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD952214FDD4C00716E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D46C97EDA5BFF17AA78CE2 /* libPods-电力小助手UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DAD929214FDD4A00716E26 = {
+			isa = PBXGroup;
+			children = (
+				05DAD96A214FE1B300716E26 /* 电力计算 */,
+				05DAD934214FDD4A00716E26 /* 电力小助手 */,
+				05DAD94D214FDD4C00716E26 /* 电力小助手Tests */,
+				05DAD958214FDD4C00716E26 /* 电力小助手UITests */,
+				05DAD933214FDD4A00716E26 /* Products */,
+				F7312B86DE8D379C4D9FFDB2 /* Pods */,
+				CC647FD68E3BDCC6F5A285FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05DAD933214FDD4A00716E26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05DAD932214FDD4A00716E26 /* 电力小助手.app */,
+				05DAD94A214FDD4C00716E26 /* 电力小助手Tests.xctest */,
+				05DAD955214FDD4C00716E26 /* 电力小助手UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05DAD934214FDD4A00716E26 /* 电力小助手 */ = {
+			isa = PBXGroup;
+			children = (
+				05DAD935214FDD4A00716E26 /* AppDelegate.h */,
+				05DAD936214FDD4A00716E26 /* AppDelegate.m */,
+				05DAD93B214FDD4A00716E26 /* Main.storyboard */,
+				05DAD93E214FDD4B00716E26 /* Assets.xcassets */,
+				05DAD943214FDD4B00716E26 /* Info.plist */,
+				05DAD944214FDD4B00716E26 /* main.m */,
+				05DAD967214FDE5300716E26 /* ElectricityCaluateListController.h */,
+				05DAD968214FDE5300716E26 /* ElectricityCaluateListController.m */,
+			);
+			path = "电力小助手";
+			sourceTree = "<group>";
+		};
+		05DAD94D214FDD4C00716E26 /* 电力小助手Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05DAD94E214FDD4C00716E26 /* _____Tests.m */,
+				05DAD950214FDD4C00716E26 /* Info.plist */,
+			);
+			path = "电力小助手Tests";
+			sourceTree = "<group>";
+		};
+		05DAD958214FDD4C00716E26 /* 电力小助手UITests */ = {
+			isa = PBXGroup;
+			children = (
+				05DAD959214FDD4C00716E26 /* _____UITests.m */,
+				05DAD95B214FDD4C00716E26 /* Info.plist */,
+			);
+			path = "电力小助手UITests";
+			sourceTree = "<group>";
+		};
+		05DAD96A214FE1B300716E26 /* 电力计算 */ = {
+			isa = PBXGroup;
+			children = (
+				05DAD96B214FE27100716E26 /* ElectricCurrentCaluateController.h */,
+				05DAD96C214FE27100716E26 /* ElectricCurrentCaluateController.m */,
+			);
+			path = "电力计算";
+			sourceTree = "<group>";
+		};
+		CC647FD68E3BDCC6F5A285FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853FF4C0D90854169BE57038 /* libPods-电力小助手.a */,
+				ED7B37AF38AC4836CA50ADD8 /* libPods-电力小助手Tests.a */,
+				51D93755D3A63F4C2337931E /* libPods-电力小助手UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7312B86DE8D379C4D9FFDB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35D454A97B327EA35FCE659C /* Pods-电力小助手.debug.xcconfig */,
+				EB0A915022BEB7D3217B57C5 /* Pods-电力小助手.release.xcconfig */,
+				D1CE4348F8482BBDF57D71BE /* Pods-电力小助手Tests.debug.xcconfig */,
+				356CC46298A7499EB753E201 /* Pods-电力小助手Tests.release.xcconfig */,
+				283DA8424D6883C495696D8F /* Pods-电力小助手UITests.debug.xcconfig */,
+				F00853000674F337F0BDBB9A /* Pods-电力小助手UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05DAD931214FDD4A00716E26 /* 电力小助手 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DAD95E214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手" */;
+			buildPhases = (
+				81E747B099B31C8DA675A598 /* [CP] Check Pods Manifest.lock */,
+				05DAD92E214FDD4A00716E26 /* Sources */,
+				05DAD92F214FDD4A00716E26 /* Frameworks */,
+				05DAD930214FDD4A00716E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "电力小助手";
+			productName = "电力小助手";
+			productReference = 05DAD932214FDD4A00716E26 /* 电力小助手.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05DAD949214FDD4C00716E26 /* 电力小助手Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DAD961214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手Tests" */;
+			buildPhases = (
+				C1A4BE44E823EB5704565777 /* [CP] Check Pods Manifest.lock */,
+				05DAD946214FDD4C00716E26 /* Sources */,
+				05DAD947214FDD4C00716E26 /* Frameworks */,
+				05DAD948214FDD4C00716E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DAD94C214FDD4C00716E26 /* PBXTargetDependency */,
+			);
+			name = "电力小助手Tests";
+			productName = "电力小助手Tests";
+			productReference = 05DAD94A214FDD4C00716E26 /* 电力小助手Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05DAD954214FDD4C00716E26 /* 电力小助手UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05DAD964214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手UITests" */;
+			buildPhases = (
+				BB9289D33A2FB6E0B1AD25C4 /* [CP] Check Pods Manifest.lock */,
+				05DAD951214FDD4C00716E26 /* Sources */,
+				05DAD952214FDD4C00716E26 /* Frameworks */,
+				05DAD953214FDD4C00716E26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05DAD957214FDD4C00716E26 /* PBXTargetDependency */,
+			);
+			name = "电力小助手UITests";
+			productName = "电力小助手UITests";
+			productReference = 05DAD955214FDD4C00716E26 /* 电力小助手UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05DAD92A214FDD4A00716E26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tuhaisheng;
+				TargetAttributes = {
+					05DAD931214FDD4A00716E26 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					05DAD949214FDD4C00716E26 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 05DAD931214FDD4A00716E26;
+					};
+					05DAD954214FDD4C00716E26 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 05DAD931214FDD4A00716E26;
+					};
+				};
+			};
+			buildConfigurationList = 05DAD92D214FDD4A00716E26 /* Build configuration list for PBXProject "电力小助手" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05DAD929214FDD4A00716E26;
+			productRefGroup = 05DAD933214FDD4A00716E26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05DAD931214FDD4A00716E26 /* 电力小助手 */,
+				05DAD949214FDD4C00716E26 /* 电力小助手Tests */,
+				05DAD954214FDD4C00716E26 /* 电力小助手UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DAD930214FDD4A00716E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DAD93F214FDD4B00716E26 /* Assets.xcassets in Resources */,
+				05DAD93D214FDD4A00716E26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD948214FDD4C00716E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD953214FDD4C00716E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81E747B099B31C8DA675A598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-电力小助手-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9289D33A2FB6E0B1AD25C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-电力小助手UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A4BE44E823EB5704565777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-电力小助手Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05DAD92E214FDD4A00716E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DAD945214FDD4B00716E26 /* main.m in Sources */,
+				05DAD937214FDD4A00716E26 /* AppDelegate.m in Sources */,
+				05DAD96D214FE27100716E26 /* ElectricCurrentCaluateController.m in Sources */,
+				05DAD969214FDE5300716E26 /* ElectricityCaluateListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD946214FDD4C00716E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DAD94F214FDD4C00716E26 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05DAD951214FDD4C00716E26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05DAD95A214FDD4C00716E26 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05DAD94C214FDD4C00716E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DAD931214FDD4A00716E26 /* 电力小助手 */;
+			targetProxy = 05DAD94B214FDD4C00716E26 /* PBXContainerItemProxy */;
+		};
+		05DAD957214FDD4C00716E26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05DAD931214FDD4A00716E26 /* 电力小助手 */;
+			targetProxy = 05DAD956214FDD4C00716E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05DAD93B214FDD4A00716E26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05DAD93C214FDD4A00716E26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DAD95C214FDD4C00716E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05DAD95D214FDD4C00716E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05DAD95F214FDD4C00716E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D454A97B327EA35FCE659C /* Pods-电力小助手.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "电力小助手/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05DAD960214FDD4C00716E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0A915022BEB7D3217B57C5 /* Pods-电力小助手.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "电力小助手/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05DAD962214FDD4C00716E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CE4348F8482BBDF57D71BE /* Pods-电力小助手Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "电力小助手Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/电力小助手.app/电力小助手";
+			};
+			name = Debug;
+		};
+		05DAD963214FDD4C00716E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356CC46298A7499EB753E201 /* Pods-电力小助手Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "电力小助手Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/电力小助手.app/电力小助手";
+			};
+			name = Release;
+		};
+		05DAD965214FDD4C00716E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283DA8424D6883C495696D8F /* Pods-电力小助手UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "电力小助手UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "电力小助手";
+			};
+			name = Debug;
+		};
+		05DAD966214FDD4C00716E26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00853000674F337F0BDBB9A /* Pods-电力小助手UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "电力小助手UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tuhaisheng.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "电力小助手";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05DAD92D214FDD4A00716E26 /* Build configuration list for PBXProject "电力小助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DAD95C214FDD4C00716E26 /* Debug */,
+				05DAD95D214FDD4C00716E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DAD95E214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DAD95F214FDD4C00716E26 /* Debug */,
+				05DAD960214FDD4C00716E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DAD961214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DAD962214FDD4C00716E26 /* Debug */,
+				05DAD963214FDD4C00716E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05DAD964214FDD4C00716E26 /* Build configuration list for PBXNativeTarget "电力小助手UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DAD965214FDD4C00716E26 /* Debug */,
+				05DAD966214FDD4C00716E26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05DAD92A214FDD4A00716E26 /* Project object */;
+}
