@@ -1,0 +1,60 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  # desc "Push a new release build to the App Store"
+  # lane :release do
+  #   build_app(workspace: "testFastlane.xcworkspace", scheme: "testFastlane")
+  #   upload_to_app_store(skip_metadata: true, skip_screenshots: true)
+  # end
+
+
+  desc "上传包到蒲公英"
+  lane :adhoc do
+
+ 
+ 
+ sigh(
+    username: '2747763360@qq.com',
+    app_identifier: 'com.sharedCarSuits',
+    force: true,
+    provisioning_name: 'sharedCarSuits_AdHot_Pro',
+    filename: "sharedCarSuits_AdHot_Pro.mobileprovision",
+    adhoc: true
+    )
+
+  gym(
+      workspace: "testFastlane.xcworkspace",
+      scheme: "testFastlane",
+      clean: true,
+      export_method: "ad-hoc",
+      include_bitcode: false,
+      configuration: "AdHoc",
+      output_name: "testFastlane.ipa",
+      output_directory: "build/appstore",
+
+export_options: {
+            provisioningProfiles: {
+                "com.sharedCarSuits" => "sharedCarSuits_AdHot_Pro",
+            }
+        }
+
+    )
+    # build_app(export_method: "ad-hoc")
+  pgyer(api_key: "b78238bb6a2a85e1045d56266c80d202", user_key: "ee8e5edc734c9f3ac2767eb021d26bd1")
+  end
+end

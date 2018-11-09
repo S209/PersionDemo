@@ -1,0 +1,6 @@
+framework module Pods_MonkeyKingDemoUITests {
+  umbrella header "Pods-MonkeyKingDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

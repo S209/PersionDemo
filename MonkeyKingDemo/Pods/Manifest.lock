@@ -1,0 +1,38 @@
+PODS:
+  - AlipaySDK-iOS (15.5.5)
+  - TencentOpenApiSDK (2.9.5):
+    - TencentOpenApiSDK/Basic (= 2.9.5)
+  - TencentOpenApiSDK/Basic (2.9.5)
+  - WechatOpenSDK (1.8.3)
+  - Weibo_SDK (3.2.3)
+
+DEPENDENCIES:
+  - AlipaySDK-iOS
+  - TencentOpenApiSDK
+  - WechatOpenSDK
+  - Weibo_SDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
+    - TencentOpenApiSDK
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  Weibo_SDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  Weibo_SDK:
+    :commit: f5b138320aefe0ed20b76b8510521432f1a6c9ac
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 7b700342e71cb3b626603ce96f9d2fb158acbcfb
+  TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+
+PODFILE CHECKSUM: 53d99429e28d6b1c31e13da750b05450fec03e47
+
+COCOAPODS: 1.5.3

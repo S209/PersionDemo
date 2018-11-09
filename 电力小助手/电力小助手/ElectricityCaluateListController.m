@@ -8,6 +8,7 @@
 
 #import "ElectricityCaluateListController.h"
 #import "ElectricCurrentCaluateController.h"
+#import "FrequencyCalculationViewController.h"
 const CGFloat custFontSize = 15;
 @interface ElectricityCaluateListController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
@@ -20,6 +21,12 @@ const CGFloat custFontSize = 15;
     [super viewDidLoad];
     self.title = @"电力小助手";
     [self setupView];
+  
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+
 }
 
 - (void)setupView{
@@ -55,7 +62,11 @@ const CGFloat custFontSize = 15;
 {
     if (indexPath.row == 0) {
         ElectricCurrentCaluateController * currentCalculation = [[ElectricCurrentCaluateController alloc] init];
+        currentCalculation.title = [self.dataArray objectAtIndex:indexPath.row];
         [self.navigationController pushViewController:currentCalculation animated:YES];
+    }else if (indexPath.row == 1){
+        FrequencyCalculationViewController *fc = [[FrequencyCalculationViewController alloc] init];
+        [self.navigationController pushViewController:fc animated:YES];
     }
 }
 #pragma mark layze
@@ -72,7 +83,7 @@ const CGFloat custFontSize = 15;
 - (NSArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@"计算电流",@"电容量速查",@"计算电容表电感频率"];
+        _dataArray = @[@"电流",@"频率计算",@"电缆电容量速查",@"电器设备试验标准"];
     }
     return _dataArray;
 }
